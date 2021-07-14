@@ -1,0 +1,241 @@
+
+/*
+
+ Coursework 2
+ CSS
+ Author: Babin Adhikari
+ Date: 24th April 2021
+ Filename: catalog_19030783.css
+
+*/
+
+/* CSS File for styling our Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,600;1,700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* The whole Website section */
+Store
+{
+    display:block;
+    background-color: rgb(81, 85, 100);
+    color: #F4F4F4;
+}
+
+
+/* Defining Footer Section */
+Footer
+{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+	
+    color: #f4f4f4;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: space-around;
+	
+}
+
+/* Padding for Footer */
+Footer Website {
+	padding-top: -19px;
+}
+
+/* Defining Header Section */
+Header
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: rgb(0, 0, 0);
+    height: 12vh;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+/* Displaying Logo in Header */
+Logo
+{
+    background-image: url(./Images/logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px; 
+    position: absolute;
+	left: 17%;
+}
+
+/* Different Font Family in Store Name */
+Store_Name{
+	color: rgb(26, 177, 177);
+	font-size: 35px;
+	position: absolute;
+	right: 58%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+Address,Telephone,Website
+{
+    padding-bottom: 10px;
+    margin-left: -80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+	color:rgb(26, 177, 177)
+}
+
+Copyright
+{
+    padding-bottom: 10px;
+    margin-left: -80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+Songs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Floating Box for Song Information */
+Song 
+{
+    border: 4px groove black;
+    font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	transform: rotate(-0.1deg);
+	font-size: 30px;
+	margin: 20px;
+	width: 550px;
+	height: 920px;
+	padding: 20px;
+	color: #f4f4f4;
+    grid-gap: 5px;
+	transition: background-color 0.4s ease-out;
+	text-align: center;
+}
+
+Music_Video 
+{
+    cursor: pointer;
+}
+
+/* Hover Effect for Music Video Link */
+Music_Video:hover
+{
+    color:rgb(35, 150, 226);
+    text-decoration: underline;
+}
+
+
+
+Name
+{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(26, 177, 177);
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Unordered List Generated for Genre */
+Genre
+{
+    display: list-item;
+    list-style-type: square;
+    margin-left: 5%;
+}
+
+Cover_Picture {
+	
+	width: 300px;
+	height: 300px;
+    background-size: cover;
+	font-size: 100px;
+}
+
+/* Cover Photo for each song */
+#cover_1 {
+	background-image: url(./Images/Song_1.jpg);
+}
+
+#cover_2 {
+	background-image: url(./Images/Song_2.jpg);
+    
+}
+#cover_3 {
+	background-image: url(./Images/Song_3.jpg);
+}
+
+#cover_4 {
+	background-image: url(./Images/Song_4.jpg);
+}
+
+#cover_5 {
+	background-image: url(./Images/Song_5.jpg);
+}
+
+#cover_6 {
+	background-image: url(./Images/Song_6.jpg);
+}
+
+#cover_7 {
+	background-image: url(./Images/Song_7.jpg);
+}
+
+#cover_8 {
+	background-image: url(./Images/Song_8.jpg);
+}
+
+#cover_9 {
+	background-image: url(./Images/Song_9.jpg);
+}
+
+#cover_10 {
+	background-image: url(./Images/Song_10.jpg);
+}
+
+#cover_11 {
+	background-image: url(./Images/Song_11.jpg);
+}
+
+#cover_12 {
+	background-image: url(./Images/Song_12.jpg);
+}
+
+#cover_13 {
+	background-image: url(./Images/Song_13.jpg);
+}
+
+#cover_14 {
+	background-image: url(./Images/Song_14.jpg);
+}
+
+#cover_15 {
+	background-image: url(./Images/Song_15.jpg);
+}
+
+
+#cover_16 {
+	background-image: url(./Images/Song_16.jpg);
+}
+
+/* Hover Effect when the Cursor Hovers over Song Panel */
+Song:hover
+{
+	background-color: rgb(4, 47, 77);
+	cursor: pointer;
+}
+
+/* Padding */
+Song Cover_Picture, Name, Album, Band_Name, Singers, Writer, Producer, Genre, Release_Year, Director, Music_Video{
+	padding: 0.6rem 1rem;
+}
+

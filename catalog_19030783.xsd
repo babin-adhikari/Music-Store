@@ -1,0 +1,81 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Store" type="StoreType">
+    <xs:annotation>
+      <xs:documentation>Coursework 2
+    XML
+    Author: Babin Adhikari
+    Date: 24th April 2021
+    Filename: catalog_19030783.xml</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="LogoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="id"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="HeaderType">
+    <xs:sequence>
+      <xs:element type="LogoType" name="Logo"/>
+      <xs:element type="xs:string" name="Store_Name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Cover_PictureType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="NameType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Name_Id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="AlbumType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Album_Id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="SongType">
+    <xs:sequence>
+      <xs:element type="Cover_PictureType" name="Cover_Picture"/>
+      <xs:element type="NameType" name="Name"/>
+      <xs:element type="AlbumType" name="Album" minOccurs="0"/>
+      <xs:element type="xs:string" name="Band_Name" minOccurs="0"/>
+      <xs:element type="xs:string" name="Singers"/>
+      <xs:element type="xs:string" name="Writer"/>
+      <xs:element type="xs:string" name="Producer" minOccurs="0"/>
+      <xs:element type="xs:string" name="Genre" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="xs:string" name="Release_Year"/>
+      <xs:element type="xs:string" name="Director" minOccurs="0"/>
+      <xs:element type="xs:string" name="Music_Video" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="Song_Id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="SongsType">
+    <xs:sequence>
+      <xs:element type="SongType" name="Song" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FooterType">
+    <xs:sequence>
+      <xs:element type="xs:anyURI" name="Website"/>
+      <xs:element type="xs:string" name="Address"/>
+      <xs:element type="xs:string" name="Telephone"/>
+      <xs:element type="xs:string" name="Copyright"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StoreType">
+    <xs:sequence>
+      <xs:element type="HeaderType" name="Header"/>
+      <xs:element type="SongsType" name="Songs"/>
+      <xs:element type="FooterType" name="Footer"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

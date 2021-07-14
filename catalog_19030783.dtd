@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Coursework 2
+ DTD
+ Author: Babin Adhikari
+ Date: 24th April 2021
+ Filename: catalog_19030783.dtd
+-->
+
+<!ATTLIST Store 
+xmlns:xsi CDATA #REQUIRED
+xsi:noNamespaceSchemaLocation CDATA #REQUIRED
+>
+
+<!-- Declaration of Elements -->
+<!-- Structure and Sequence of Elements -->
+<!ELEMENT Store (Header,Songs,Footer)>
+<!ELEMENT Header (Logo,Store_Name)>
+<!-- Many Occurence of Song Element -->
+<!ELEMENT Songs (Song)+>
+<!ELEMENT Footer (Website,Address,Telephone,Copyright)>
+<!ELEMENT Logo EMPTY>
+<!ELEMENT Store_Name (#PCDATA)>
+<!-- Specification of Optional Elements like Album, Band_Name, .. -->
+<!ELEMENT Song (Cover_Picture,Name,Album?,Band_Name?,Singers,Writer,Producer?,Genre+,Release_Year,Director?,Music_Video?)>
+<!ELEMENT Website (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Telephone (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Cover_Picture EMPTY>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Album (#PCDATA)>
+<!ELEMENT Band_Name (#PCDATA)>
+<!ELEMENT Singers (#PCDATA)>
+<!ELEMENT Writer (#PCDATA)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Release_Year (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Music_Video (#PCDATA)>
+
+<!-- Declaration of Attrbutes with characteristics like Optional or Mandatory -->
+<!ATTLIST Logo id (Logo) #REQUIRED>
+<!ATTLIST Song Song_Id ID #REQUIRED>
+<!ATTLIST Cover_Picture id CDATA #REQUIRED>
+<!ATTLIST Name Name_Id CDATA #REQUIRED>
+<!ATTLIST Album Album_Id CDATA #IMPLIED>

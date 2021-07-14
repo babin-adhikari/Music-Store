@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+    Coursework 2
+    XML
+    Author: Babin Adhikari
+    Date: 24th April 2021
+    Filename: catalog_19030783.xml
+--> 
+
+<!DOCTYPE Store SYSTEM "catalog_19030783.dtd">
+<?xml-stylesheet href="catalog_19030783.css" type="text/css"?>
+<Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./catalog_19030783.xsd">
+    <Header>
+        <Logo id="Logo"/>
+        <Store_Name>Music Essentials</Store_Name>
+    </Header>
+    <Songs>
+
+        <Song Song_Id="song_1">
+            <Cover_Picture id="cover_1"/>
+            <Name Name_Id="name_1">Stay With Me</Name>
+            <Singers>Singer: Miki Matsubara</Singers>
+            <Writer>Writers: Noriko Miura <![CDATA[ & ]]> Tetuji Hayashi </Writer>
+            <Genre>Japanese Pop</Genre>
+            <Genre>Soul Music</Genre>
+            <Release_Year>Release Year: 1979</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_2">
+            <Cover_Picture id="cover_2"/>
+            <Name Name_Id="name_2">You're Beautiful</Name>
+            <Album Album_Id="Album_2">Album: Back to Bedlam</Album>
+            <Singers>Singer: James Blunt</Singers>
+            <Writer>Writers: Amanda Ghost, James Blunt <![CDATA[ & ]]> Sacha Sharbek</Writer>
+            <Producer>Producer: Tom Rothrock</Producer>
+            <Genre>Pop Rock</Genre>
+            <Release_Year>Release Year: 2004</Release_Year>
+            <Music_Video >https://bit.ly/3eTqWOj</Music_Video>
+        </Song>
+
+        <Song Song_Id="song_3">
+            <Cover_Picture id="cover_3"/>
+            <Name Name_Id="name_3">Don't Stop Me Now</Name>
+            <Album Album_Id="Album_3">Album: Back to Bedlam</Album>
+            <Band_Name>Band: Queen</Band_Name>
+            <Singers>Singer: Freddy Mercury</Singers>
+            <Writer>Writers: Brian May <![CDATA[ & ]]> Freddit Mercury</Writer>
+            <Producer>Producer: Queen <![CDATA[ & ]]> Roy Thomas Baker</Producer>
+            <Genre>Pop Rock</Genre>
+            <Genre>Classic Rock</Genre>
+            <Release_Year>Release Year: 1979</Release_Year>
+            <Music_Video>https://bit.ly/3h3z1TA</Music_Video>
+            
+        </Song>
+
+        <Song Song_Id="song_4">
+            <Cover_Picture id="cover_4"/>
+            <Name Name_Id="name_4">Falling</Name>
+            <Album Album_Id="Album_4">Album: Homesick</Album>
+            <Singers>Singer: Trevor Daniel</Singers>
+            <Writer>Writers: Trevor Neill</Writer>
+            <Genre>Hip Hop</Genre>
+            <Release_Year>Release Year: 2018</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_5">
+            <Cover_Picture id="cover_5"/>
+            <Name Name_Id="name_5">Lemonade</Name>
+            <Album Album_Id="Album_5">Album: Trending Now Volume 2</Album>
+            <Singers >Singers: Internet Money Ft. Gunna, Don Toliver and Nav</Singers>
+            <Writer>Writers: Danny Snodgrass, Jr, Nicholas Mira <![CDATA[ & ]]> Sergio Kitchens </Writer>
+            <Producer>Producer: Nick Mira, Alec Wigdahl</Producer>
+            <Genre>Hip Hop</Genre>
+            <Release_Year>Release Year: 2020</Release_Year>
+            <Director>Director: Cole Bennet</Director>
+            <Music_Video>https://bit.ly/3xQ46jx</Music_Video>
+        </Song>
+
+        <Song Song_Id="song_6">
+            <Cover_Picture id="cover_6"/>
+            <Name Name_Id="name_6">Sign of the Times</Name>
+            <Album>Album: Harry Styles</Album>
+            <Singers>Singers: Harry Styles <![CDATA[ & ]]> Jeff Bhasker</Singers>
+            <Writer>Writers: Harry Styles</Writer>
+            <Genre>Hip Hop</Genre>
+            <Release_Year>Release Year: 2017</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_7">
+            <Cover_Picture id="cover_7"/>
+            <Name Name_Id="name_7">Thunderstruck</Name>
+            <Album Album_Id="Album_7">Album: The Razors Edge by Australian</Album>
+            <Band_Name>Band: AC/DC</Band_Name>
+            <Singers>Singers: Brian Johnson</Singers>
+            <Writer>Writers: Angus Young <![CDATA[ & ]]> Malcolm Young</Writer>
+            <Genre>Hard Rock, Heavy Metal</Genre>
+            <Release_Year>Release Year: 1990</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_8">
+            <Cover_Picture id="cover_8"/>
+            <Name Name_Id="name_8">Bangarang</Name>
+            <Singers>Singer: Skrillex</Singers>
+            <Writer>Writers: Sonny Moore</Writer>
+            <Genre>Dubstep</Genre>
+            <Release_Year>Release Year: 2012</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_9">
+            <Cover_Picture id="cover_9"/>
+            <Name Name_Id="name_9">What a wonderful world</Name>
+            <Singers>Singer: Louis Armstrong</Singers>
+            <Writer>Writers: Bob Thiele</Writer>
+            <Genre>Jazz</Genre>
+            <Release_Year>Release Year: 1967</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_10">
+            <Cover_Picture id="cover_10"/>
+            <Name Name_Id="name_10">Take Me Home, Country Roads</Name>
+            <Album Album_Id="Album_10">Album: Poems, Prayers <![CDATA[ & ]]> Promises</Album>
+            <Singers>Singer: John Denver</Singers>
+            <Writer>Writers: Bill Danoff</Writer>
+            <Genre>Country</Genre>
+            <Release_Year>Release Year: 1971</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_11">
+            <Cover_Picture id="cover_11"/>
+            <Name Name_Id="name_11">The Nights</Name>
+            <Album Album_Id="Album_11">Album: Stories</Album>
+            <Singers>Singer: Avicii</Singers>
+            <Writer>Writers: Bill Danoff</Writer>
+            <Genre>Folktronica</Genre>
+            <Release_Year>Release Year: 2015</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_12">
+            <Cover_Picture id="cover_12"/>
+            <Name Name_Id="name_12">Closer</Name>
+            <Album Album_Id="Album_12">Album: Collage</Album>
+            <Singers>Singer: The Chainsmokers Ft. Halsey</Singers>
+            <Writer>Writers: Andrew Taggart</Writer>
+            <Genre>EDM</Genre>
+            <Release_Year>Release Year: 2016</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_13">
+            <Cover_Picture id="cover_13"/>
+            <Name Name_Id="name_13">Talking to the Moon</Name>
+            <Album Album_Id="Album_13">Album: Doo-Wops <![CDATA[ & ]]> Hooligans</Album>
+            <Singers>Singer: Bruno Mars</Singers>
+            <Writer>Writers: Bruno Mars <![CDATA[ & ]]> Philip Lawrence</Writer>
+            <Genre>POP</Genre>
+            <Release_Year>Release Year: 2011</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_14">
+            <Cover_Picture id="cover_14"/>
+            <Name Name_Id="name_14">Hypnotize</Name>
+            <Album Album_Id="Album_14">Album: Life After Death</Album>
+            <Singers>Singer: The Notorious B.I.G.</Singers>
+            <Writer>Writers: Christopher Wallace</Writer>
+            <Genre>Hip-Hop</Genre>
+            <Genre>Rap</Genre>
+            <Release_Year>Release Year: 1997</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_15">
+            <Cover_Picture id="cover_15"/>
+            <Name Name_Id="name_15">A Place For My Head</Name>
+            <Album Album_Id="Album_15">Album: Hybrid Theory</Album>
+            <Singers>Singers: Chester Bennington <![CDATA[ & ]]> Mike Shinoda</Singers>
+            <Writer>Writers: Mark Wakefield</Writer>
+            <Genre>New Metal</Genre>
+            <Release_Year>Release Year: 1997</Release_Year>
+        </Song>
+
+        <Song Song_Id="song_16">
+            <Cover_Picture id="cover_16"/>
+            <Name Name_Id="name_1">Fix You</Name>
+            <Album Album_Id="Album_15">Album: X <![CDATA[ & ]]> Y</Album>
+            <Singers>Singers: Chris Martin</Singers>
+            <Writer>Writers: Chris Martin, Jonny Buckland, Guy Berryman <![CDATA[ & ]]> Will Champion</Writer>
+            <Genre>Pop</Genre>
+            <Release_Year>Release Year: 1997</Release_Year>
+        </Song>
+
+    </Songs>
+    <Footer>
+        <Website>www.musicessentails.com</Website>
+        <Address>Address: Durbarmarg, Kathmandu</Address>
+        <Telephone>Contact: 01-6547869 &amp; 9840578549</Telephone>
+        <Copyright>Copyright &#xA9; 2021 Music Essentails. All rights reserverd.</Copyright>
+    </Footer>
+</Store>
